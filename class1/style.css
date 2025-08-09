@@ -1,3 +1,15 @@
 body {
   background-color: silver;
 }
+img {
+  height: 250px;
+  width: 400px;
+
+  padding-left: 40px;
+}
+table,
+td,
+th {
+  margin-left: 50%;
+  border: 2px solid black;
+}
