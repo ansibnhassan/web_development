@@ -14,7 +14,7 @@ th {
   border: 2px solid black;
 }
 
-p {
+/* p {
   background-color: aquamarine;
 }
 a {
@@ -25,4 +25,18 @@ div {
 }
 span {
   background-color: chartreuse;
+} */
+
+/*Class Target . */
+.red {
+  color: red;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+
+/* ID Target # */
+#firstdiv {
+  /* background-color: antiquewhite; */
+  margin-top: 20px;
 }
