@@ -16,9 +16,9 @@
     <h1>Author:: AnasIbnHassan</h1>
     <!-- Video and Audio Tag  + Inline CSS -->
     <p>Video Tag</p>
-    <!-- What is the function of style src control?  -->
+    <!-- What is the function of "style,src,control"?  -->
     <video
-      style="width: 400px; padding-left: 40px; padding-right: 40px"
+      style="width: 300px; padding-left: 40px; padding-right: 40px"
       src="video/SampleVideo.mp4"
       controls
     ></video>
@@ -26,11 +26,11 @@
     <audio src="audio/sample-autio.mp3" controls></audio>
     <!-- Image Tag -->
     <p>Image Tag</p>
-    <!-- What is the function of alt? -->
+    <!-- What is the function of "alt"? -->
     <img src="image/image.jpg" alt="mountains and two hotballoon" />
     <!-- Table Tag -->
     <table>
-      <!-- What is the function of caption,colspan  {tr,th,td}-->
+      <!-- What is the function of "caption,colspan"  {tr,th,td}-->
       <caption>
         Time Table
       </caption>
@@ -65,6 +65,25 @@
       <li>Anas</li>
       <li>Anas</li>
     </ol>
+    <!-- Form -->
+    <!-- What is the function of "div"  -->
+    <!-- What is the function of "lable,input" {action,id,type}  -->
+    <form action="/submit" method="post">
+      <!-- Text input for username -->
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+      </div>
+      <!-- Radio buttons for gender -->
+      <div>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+    </form>
     <!-- script link -->
     <script src="script.js"></script>
   </body>
